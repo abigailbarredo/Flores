@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">bubble garden</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="Imágenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="\index.html">Inicio</a></li>
+                    <li><a href="#">Pedidos</a></li>
+                    <li><a href="Flores.html">Productos</a></li>
+                    <li><a href="Contáctanos.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img id="img-carrito" src="Imágenes/Shop.svg" alt="car">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imágen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="formulario">
+        <h1>Seguimiento del pedido</h1>
+        <form method="post">
+            <div class="username">
+                <input type="text" required>
+                <label>Número de orden</label>
+            </div>
+            <div class="username">
+                <input type="password" required>
+                <label>Correo electrónico</label>
+            </div>
+            <div class="recordar">¿No tienes número de orden?</div>
+            <input type="submit" value="Trackear">
+        </form>
+    </div>
+
+</body>
+</html>
